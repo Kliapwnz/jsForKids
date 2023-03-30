@@ -11,7 +11,11 @@
     let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
     let symbol = Math.floor(Math.random() *
         alphabet.length)
-    console.log(alphabet[symbol])
+    let randomString = ""
+    while (randomString < 6) {
+        console.log(randomString + alphabet[symbol])
+    }
+    console.log("end")
 </script>
 </body>
 </html>
